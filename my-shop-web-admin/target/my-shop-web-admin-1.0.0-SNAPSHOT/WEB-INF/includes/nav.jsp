@@ -26,7 +26,7 @@
             <ul class="nav navbar-nav">
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <img src="../static/assets/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                        <img src="../static/assets/img/yangzi.jpg" class="user-image" alt="User Image">
                         <span class="hidden-xs">${user.email}</span>
                     </a>
                     <ul class="dropdown-menu">

@@ -18,8 +18,12 @@
 <link rel="stylesheet" href="../static/assets/bower_components/font-awesome/css/font-awesome.min.css">
 <!-- Ionicons -->
 <link rel="stylesheet" href="../static/assets/bower_components/Ionicons/css/ionicons.min.css">
+<!-- iCheck for checkboxes and radio inputs -->
+<link rel="stylesheet" href="../static/assets/plugins/iCheck/all.css" />
 <!-- Theme style -->
 <link rel="stylesheet" href="../static/assets/css/AdminLTE.min.css">
 <!-- AdminLTE Skins. Choose a skin from the css/skins
 folder instead of downloading all of them to reduce the load. -->
 <link rel="stylesheet" href="../static/assets/css/skins/_all-skins.min.css">
+<!-- DataTables -->
+<link rel="stylesheet" href="../static/assets/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">

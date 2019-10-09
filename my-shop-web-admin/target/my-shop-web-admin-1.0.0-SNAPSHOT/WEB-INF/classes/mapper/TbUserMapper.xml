@@ -60,7 +60,6 @@
           password = #{password},
           phone = #{phone},
           email = #{email},
-          created = #{created},
           updated = #{updated}
         WHERE id = #{id}
     </update>
@@ -79,6 +78,60 @@
         FROM
           tb_user AS a
         WHERE a.email=#{email}
+    </select>
+
+    <select id="getByPhone" resultType="TbUser">
+        SELECT
+        <include refid="tbUserColumns"/>
+        FROM
+        tb_user AS a
+        WHERE a.phone=#{phone}
+    </select>
+
+    <select id="getByUsername" resultType="TbUser">
+        SELECT
+        <include refid="tbUserColumns"/>
+        FROM
+        tb_user AS a
+        WHERE a.username=#{username}
+    </select>
+    
+    <select id="search" resultType="com.funtl.my.shop.domain.TbUser">
+        SELECT 
+        <include refid="tbUserColumns"/>
+        FROM
+        tb_user AS a
+        <where>
+            <if test="username != null and username != ''">
+                OR username LIKE concat('%',#{username},'%')
+            </if>
+            <if test="phone != null and phone != ''">
+                OR phone LIKE concat('%',#{phone},'%')
+            </if>
+            <if test="email != null and email != ''">
+                OR email LIKE concat('%',#{email},'%')
+            </if>
+        </where>
+    </select>
+
+    <delete id="deleteMulti">
+        DELETE FROM tb_user
+        WHERE id IN
+        <foreach collection="array" open="(" close=")" separator="," item="id">
+            #{id}
+        </foreach>
+    </delete>
+
+    <select id="page" resultType="com.funtl.my.shop.domain.TbUser">
+        SELECT
+        <include refid="tbUserColumns"/>
+        FROM
+        tb_user AS a
+        LIMIT #{start},#{length}
+    </select>
+
+    <select id="userTotal" resultType="Integer">
+        SELECT COUNT(*) FROM tb_user
     </select>
 
 
