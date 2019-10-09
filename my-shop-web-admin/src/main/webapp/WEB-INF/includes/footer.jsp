@@ -26,6 +26,17 @@
 <!-- AdminLTE App -->
 <script src="../static/assets/js/adminlte.min.js"></script>
 
+<!-- iCheck 1.0.1 -->
+<script src="/static/assets/plugins/iCheck/icheck.min.js"></script>
+
+<%--jquery-validation--%>
+<script src="../static/assets/plugins/jquery-validation-1.19.1/dist/additional-methods.min.js"></script>
+<script src="../static/assets/plugins/jquery-validation-1.19.1/dist/jquery.validate.min.js"></script>
+<script src="../static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_zh.min.js"></script>
+
+<%--app--%>
+<script src="../static/assets/app/validate.js"></script>
+<script src="../static/assets/app/app.js"></script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,3 +44,6 @@
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+<!-- DataTables -->
+<script src="../static/assets/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="../static/assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>

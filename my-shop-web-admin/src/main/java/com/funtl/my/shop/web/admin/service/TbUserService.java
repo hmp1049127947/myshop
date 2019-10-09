@@ -1,6 +1,8 @@
 package com.funtl.my.shop.web.admin.service;
 
+import com.funtl.my.shop.commons.dto.BaseResult;
 import com.funtl.my.shop.domain.TbUser;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -22,5 +24,15 @@ public interface TbUserService {
      * @param tbUser
      * @return
      */
-    int save(TbUser tbUser);
+    BaseResult save(TbUser tbUser);
+
+    TbUser getById(Long id);
+
+    List<TbUser> search(String keyword);
+
+    void deleteMulti(String[] ids);
+
+    List<TbUser> page(int start,int length);
+
+    int userTotal();
 }

@@ -33,20 +33,4 @@ public class TbUserServiceTest {
         }
     }
 
-    @Test
-    public void testInsertTbUser() {
-        TbUser tbUser = new TbUser();
-        tbUser.setUsername("yrk");
-        tbUser.setUpdated(new Date());
-        tbUser.setEmail("yrk@a.com");
-        tbUser.setPhone("134895623");
-        tbUser.setCreated(new Date());
-        tbUser.setPassword(DigestUtils.md5DigestAsHex("123456".getBytes()));
-        int i = tbUserService.save(tbUser);
-        if (i == 1) {
-            System.out.println("测试成功");
-        }
-    }
-
-
 }
