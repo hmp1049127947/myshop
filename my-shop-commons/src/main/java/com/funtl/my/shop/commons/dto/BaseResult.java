@@ -5,10 +5,19 @@ package com.funtl.my.shop.commons.dto;
  * @date 2019/7/26-20:32
  */
 public class BaseResult {
-    private static final int STATUS_SUCCESS = 200;
-    private static final int STATUS_FAIL= 500;
-    private int status;
-    private String message;
+    public static final int STATUS_SUCCESS = 200;
+    public static final int STATUS_FAIL= 500;
+    public int status;
+    public String message;
+
+    public  BaseResult(){
+
+    }
+
+    public BaseResult(int status, String message) {
+        this.status = status;
+        this.message = message;
+    }
 
     public static BaseResult success() {
         return getBaseResult(STATUS_SUCCESS, "成功");
