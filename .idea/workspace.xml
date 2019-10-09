@@ -7,10 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c235f173-03cc-4e6f-84c3-23257722691e" name="Default Changelist" comment="CRUD">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/tags/sys/modal.tag" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/app.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/datetime.js" afterDir="false" />
@@ -384,14 +380,8 @@
       <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/methods.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/rules.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-api/src/main/java/rebel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_shop_web_admin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/my_shop_web_admin_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-commons/my-shop-commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-commons/my-shop-commons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-commons/src/main/java/com/funtl/my/shop/commons/dto/BaseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-commons/src/main/java/com/funtl/my/shop/commons/dto/BaseResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-commons/target/classes/com/funtl/my/shop/commons/dto/BaseResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-commons/target/classes/com/funtl/my/shop/commons/dto/BaseResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-dependencies/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-domain/my-shop-domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-domain/my-shop-domain.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/my-shop-web-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/my-shop-web-admin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/pom.xml" afterDir="false" />
@@ -434,8 +424,6 @@
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/user_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/user_list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/test-classes/com/funtl/my/shop/web/admin/service/test/TbUserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/test-classes/com/funtl/my/shop/web/admin/service/test/TbUserServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-api/my-shop-web-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-api/my-shop-web-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-ui/my-shop-web-ui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-ui/my-shop-web-ui.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/my-shop-dependencies/target/" />
@@ -516,7 +504,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="5896" />
+          <entry key="java" value="5948" />
           <entry key="js" value="86" />
           <entry key="jsp" value="2072" />
           <entry key="md" value="17" />
@@ -527,7 +515,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5896" />
+          <entry key="JAVA" value="5948" />
           <entry key="JSP" value="2072" />
           <entry key="JavaScript" value="86" />
           <entry key="Markdown" value="17" />
@@ -546,20 +534,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1259">
+            <state relative-caret-position="-548">
               <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
+            <state relative-caret-position="354">
+              <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -1086,7 +1074,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570605945556" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570605961319" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -1409,7 +1397,7 @@
       <workItem from="1570340505663" duration="12000" />
       <workItem from="1570380923368" duration="1273000" />
       <workItem from="1570459715265" duration="254000" />
-      <workItem from="1570598835195" duration="3653000" />
+      <workItem from="1570598835195" duration="3922000" />
     </task>
     <task id="LOCAL-00001" summary="模块化开发">
       <created>1563607750652</created>
@@ -1460,7 +1448,42 @@
       <option name="project" value="LOCAL" />
       <updated>1563955950274</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CRUD">
+      <created>1570605868062</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570605868062</updated>
+    </task>
+    <task id="LOCAL-00009" summary="CRUD">
+      <created>1570605906797</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570605906797</updated>
+    </task>
+    <task id="LOCAL-00010" summary="CRUD">
+      <created>1570605932608</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570605932608</updated>
+    </task>
+    <task id="LOCAL-00011" summary="CRUD">
+      <created>1570605955773</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570605955773</updated>
+    </task>
+    <task id="LOCAL-00012" summary="CRUD">
+      <created>1570605980501</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570605980501</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1496,7 +1519,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149739000" />
+    <option name="totallyTimeSpent" value="150008000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1884,13 +1907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1259">
-          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -1927,8 +1943,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
+        <state relative-caret-position="354">
+          <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548">
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
         </state>
       </provider>
     </entry>
