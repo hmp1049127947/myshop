@@ -1,6 +1,7 @@
 package com.funtl.my.shop.web.admin.service;
 
 import com.funtl.my.shop.commons.dto.BaseResult;
+import com.funtl.my.shop.domain.PageInfo;
 import com.funtl.my.shop.domain.TbUser;
 import org.apache.ibatis.annotations.Param;
 
@@ -32,7 +33,7 @@ public interface TbUserService {
 
     void deleteMulti(String[] ids);
 
-    List<TbUser> page(int start,int length);
+   PageInfo<TbUser> page(int start, int length, int draw);
 
     int userTotal();
 }

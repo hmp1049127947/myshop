@@ -172,7 +172,8 @@ var App = function () {
             "serverSide": true,
             "deferRender": true,
             "ajax": {
-                "url": url
+                "url": url,
+                "type": "post"
             },
             "columns": columns,
             "language": {

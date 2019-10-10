@@ -66,7 +66,7 @@
                         </div>
                         <!-- /.box-header -->
                         <div class="box-body table-responsive no-padding">
-                            <table id="dt" class="table table-hover">
+                            <table id="dataTable" class="table table-hover">
                                 <thead>
                                     <tr>
                                         <th><input type="checkbox" class="minimal icheck_master" /></th>
@@ -75,25 +75,11 @@
                                         <th>手机号</th>
                                         <th>邮箱</th>
                                         <th>更新时间</th>
-                                        <th>操作</th>
+                                        <th>数据操作</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                <c:forEach items="${tbUsers}" var="tbuser">
-                                    <tr>
-                                        <td><input id="${tbuser.id}" type="checkbox" class="minimal " /></td>
-                                        <td>${tbuser.id}</td>
-                                        <td>${tbuser.username}</td>
-                                        <td>${tbuser.phone}</td>
-                                        <td>${tbuser.email}</td>
-                                        <td><fmt:formatDate value="${tbuser.updated}" pattern="yyyy-MM-dd hh:mm:ss"/> </td>
-                                        <td>
-                                            <a type="button" class="btn  btn-default btn-xs">查看</a>&nbsp;&nbsp;&nbsp;
-                                            <a type="button" class="btn  btn-primary btn-xs" href="/user/form?id=${tbuser.id}">编辑</a>&nbsp;&nbsp;&nbsp;
-                                            <a type="button" class="btn  btn-danger btn-xs">删除</a>&nbsp;&nbsp;&nbsp;
-                                        </td>
-                                    </tr>
-                                </c:forEach>
+
                                 </tbody>
                             </table>
                         </div>
@@ -112,9 +98,26 @@
 <!-- 自定义模态框 -->
 <sys:modal />
 <script>
-    $(function () {
-        $("#dt").DataTable();
-    });
+    var colunms=[
+        {
+            "data": function (row, type, val, meta) {
+                return '<input id="' + row.id + '" type="checkbox" class="minimal" />';
+            }
+        },
+        {"data": "id"},
+        {"data": "username"},
+        {"data": "phone"},
+        {"data": "email"},
+        {"data": "updated"},
+        {
+            "data": function (row, type, val, meta) {
+                return '<a href="#" type="button" class="btn btn-sm btn-default"><i class="fa fa-search"></i> 查看</a>&nbsp;&nbsp;&nbsp;' +
+                    '<a href="#" type="button" class="btn btn-sm btn-primary"><i class="fa fa-edit"></i> 编辑</a>&nbsp;&nbsp;&nbsp;' +
+                    '<a href="#" type="button" class="btn btn-sm btn-danger"><i class="fa fa-trash-o"></i> 删除</a>'
+            }
+        }
+    ];
+    App.initDataTables("/user/page", colunms);
 </script>
 </body>
 

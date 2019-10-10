@@ -1,6 +1,7 @@
 package com.funtl.my.shop.web.admin.service.impl;
 
 import com.funtl.my.shop.commons.dto.BaseResult;
+import com.funtl.my.shop.domain.PageInfo;
 import com.funtl.my.shop.domain.TbUser;
 import com.funtl.my.shop.web.admin.dao.TbUserDao;
 import com.funtl.my.shop.web.admin.service.TbUserService;
@@ -85,8 +86,14 @@ public class TbUserServiceImpl implements TbUserService {
     }
 
     @Override
-    public List<TbUser> page(int start, int length) {
-        return tbUserDao.page(start,length);
+    public PageInfo<TbUser> page(int start, int length,int draw) {
+        PageInfo<TbUser> pageInfo = new PageInfo<>();
+        pageInfo.setData(tbUserDao.page(start,length));
+        pageInfo.setDraw(draw);
+        int total = tbUserDao.userTotal();
+        pageInfo.setRecordsTotal(total);
+        pageInfo.setRecordsFiltered(total);
+        return pageInfo;
     }
 
     @Override

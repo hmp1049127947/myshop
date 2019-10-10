@@ -1,6 +1,7 @@
 package com.funtl.my.shop.web.admin.web.controller;
 
 import com.funtl.my.shop.commons.dto.BaseResult;
+import com.funtl.my.shop.domain.PageInfo;
 import com.funtl.my.shop.domain.TbUser;
 import com.funtl.my.shop.web.admin.service.TbUserService;
 import org.apache.commons.lang3.StringUtils;
@@ -92,16 +93,10 @@ public class UserController {
 
     @ResponseBody
     @PostMapping("page")
-    public Map<String,Object> page(@RequestParam(defaultValue = "0") Integer draw,
-                       @RequestParam(defaultValue = "0") Integer start,
-                       @RequestParam(defaultValue = "10") Integer length) {
-        List<TbUser> tbUsers = tbUserService.page(start, length);
-        int total = tbUserService.userTotal();
-        Map<String, Object> maps = new HashMap<>();
-        maps.put("draw", draw);
-        maps.put("recordsTotal", total);
-        maps.put("recordsFiltered", total);
-        maps.put("data", tbUsers);
-        return maps;
+    public PageInfo<TbUser> page(@RequestParam(defaultValue = "0") Integer draw,
+                                 @RequestParam(defaultValue = "0") Integer start,
+                                 @RequestParam(defaultValue = "10") Integer length) {
+
+        return tbUserService.page(start,length,draw);
     }
 }

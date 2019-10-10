@@ -6,424 +6,41 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c235f173-03cc-4e6f-84c3-23257722691e" name="Default Changelist" comment="CRUD">
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/tags/sys/modal.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/datetime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/img/yangzi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/ajaxSubmit-integration-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/bootstrap/index-bs4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/bootstrap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/captcha/captcha.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/captcha/fonts/Anorexia.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/captcha/image_req.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/captcha/images/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/captcha/images/image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/captcha/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/captcha/newsession.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/captcha/process.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/captcha/rand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/captcha/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/cinema/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/cinema/plan_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/cinema/refer_madness.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/cinema/saucer_men.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/css/cmxform.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/css/cmxformTemplate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/css/core.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/css/screen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/custom-messages-data-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/custom-methods-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/dynamic-totals.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/errorcontainer-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/errors-within-labels.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/file_input.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/images/checked.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/images/cmxform-divider.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/images/cmxform-fieldset.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/images/unchecked.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/jquerymobile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/login/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/login/images/header1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/login/images/page.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/login/images/required_star.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/login/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/login/screen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/backRequiredGray.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/back_green-fade.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/back_nav_blue.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/button-submit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/left-nav-callout-long.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/login-sprite.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/logo_marketo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/sf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/step1-24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/step2-24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/step3-24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/tab-sprite.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/tab_green.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/toggle.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/images/warning.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/jquery.maskedinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/mktSignup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/step2.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/marketo/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/milk/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/milk/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/milk/left_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/milk/milk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/milk/milk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/milk/right_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/multipart/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/multipart/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/radio-checkbox-select-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/requirejs/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/requirejs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/semantic-ui/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/site-demos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/themerollered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/tinymce/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/tinymce/themes/simple/editor_template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/tinymce/themes/simple/img/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/tinymce/themes/simple/langs/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/tinymce/themes/simple/skins/default/ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/tinymce/tiny_mce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/demo/tinymce4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_az.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_bg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_bn_BD.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_bn_BD.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ca.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_cs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_da.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_de.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_el.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_es.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_es_AR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_es_AR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_es_PE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_es_PE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_et.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_eu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_fa.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_fi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_fr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ge.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_gl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_he.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_hr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_hu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_hy_AM.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_hy_AM.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_id.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_is.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ja.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ka.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_kk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ko.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_lt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_lv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_mk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_my.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_nl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_no.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_pl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_pt_BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_pt_BR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_pt_PT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_pt_PT.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ro.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ru.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_sd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_sd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_si.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_sk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_sl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_sr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_sr_lat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_sr_lat.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_sv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_th.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_tj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_tj.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_tr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_uk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ur.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_ur.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_vi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_zh.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/messages_zh_TW.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/methods_de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/methods_de.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/methods_es_CL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/methods_es_CL.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/methods_fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/methods_fi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/methods_it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/methods_it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/methods_nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/methods_nl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/methods_pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/dist/localization/methods_pt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/lib/jquery-1.11.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/lib/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/lib/jquery-1.8.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/lib/jquery-1.9.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/lib/jquery-3.1.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/lib/jquery.form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/lib/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/lib/jquery.mockjax-1.5.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/lib/jquery.mockjax-2.2.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/lib/jquery.mockjax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/lib/jquery.simulate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/lib/require.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/abaRoutingNumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/accept.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/additional.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/alphanumeric.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/bankaccountNL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/bankorgiroaccountNL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/bic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/cifES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/cnhBR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/cnpjBR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/cpfBR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/creditcard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/creditcardtypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/currency.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/dateFA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/dateITA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/dateNL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/extension.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/giroaccountNL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/greaterThan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/greaterThanEqual.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/iban.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/integer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/ipv4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/ipv6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/lessThan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/lessThanEqual.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/lettersonly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/letterswithbasicpunc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/maxfiles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/maxsize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/maxsizetotal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/mobileNL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/mobileRU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/mobileUK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/netmask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/nieES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/nifES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/nipPL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/nisBR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/notEqualTo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/nowhitespace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/pattern.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/phoneNL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/phonePL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/phoneUK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/phoneUS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/phonesUK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/postalCodeCA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/postalcodeBR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/postalcodeIT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/postalcodeNL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/postcodeUK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/require_from_group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/skip_or_fill_minimum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/statesUS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/strippedminlength.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/time12h.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/url2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/vinUS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/zipcodeUS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/additional/ziprange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_bn_BD.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_es_AR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_es_PE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_ge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_hy_AM.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_pt_BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_pt_PT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_sd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_sr_lat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_tj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_ur.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/messages_zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/methods_de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/methods_es_CL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/methods_fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/methods_it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/methods_nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/src/localization/methods_pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/additional/abaRoutingNumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/additional/cnhBR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/additional/creditcard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/additional/netmask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/aria.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/error-placement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/rules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-validation-1.19.1/test/test.js" afterDir="false" />
+    <list default="true" id="c235f173-03cc-4e6f-84c3-23257722691e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my-shop-commons/src/main/java/com/funtl/my/shop/commons/persistence/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-domain/src/main/java/com/funtl/my/shop/domain/PageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/demo/style/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/demo/treeTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/jquery.treeTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/jquery.treeTable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/default/allbgs.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/default/allbgs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/default/treeTable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/default/treeTable.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/vsStyle/allbgs.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/vsStyle/allbgs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/vsStyle/allbgs.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/vsStyle/treeTable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/vsStyle/treeTable.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-commons/target/classes/com/funtl/my/shop/commons/dto/BaseResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-commons/target/classes/com/funtl/my/shop/commons/dto/BaseResult.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-domain/my-shop-domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-domain/my-shop-domain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/my-shop-web-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/my-shop-web-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/dao/TbUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/dao/TbUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-domain/src/main/java/com/funtl/my/shop/domain/TbUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-domain/src/main/java/com/funtl/my/shop/domain/TbUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-domain/target/classes/com/funtl/my/shop/domain/TbUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-domain/target/classes/com/funtl/my/shop/domain/TbUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/service/TbUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/service/TbUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/service/impl/TbUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/service/impl/TbUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/interceptor/PermissionInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/interceptor/PermissionInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/test/java/com/funtl/my/shop/web/admin/service/test/TbUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/test/java/com/funtl/my/shop/web/admin/service/test/TbUserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/dao/TbUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/service/TbUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/service/impl/TbUserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/web/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/web/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/web/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/web/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/web/interceptor/PermissionInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/web/interceptor/PermissionInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/classes/mapper/TbUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/classes/mapper/TbUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/funtl/my/shop/web/admin/dao/TbUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/funtl/my/shop/web/admin/dao/TbUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/service/TbUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/service/TbUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/service/impl/TbUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/service/impl/TbUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/funtl/my/shop/web/admin/web/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/funtl/my/shop/web/admin/service/TbUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/funtl/my/shop/web/admin/service/TbUserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/funtl/my/shop/web/admin/service/impl/TbUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/funtl/my/shop/web/admin/service/impl/TbUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/funtl/my/shop/web/admin/web/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/funtl/my/shop/web/admin/web/controller/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/funtl/my/shop/web/admin/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/funtl/my/shop/web/admin/web/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/funtl/my/shop/web/admin/web/interceptor/PermissionInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/funtl/my/shop/web/admin/web/interceptor/PermissionInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/TbUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/TbUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/includes/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/includes/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/includes/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/includes/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/includes/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/includes/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/includes/nav.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-commons-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-commons-1.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-domain-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-domain-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/user_form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/user_form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/user_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/user_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/test-classes/com/funtl/my/shop/web/admin/service/test/TbUserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/test-classes/com/funtl/my/shop/web/admin/service/test/TbUserServiceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/my-shop-dependencies/target/" />
@@ -455,7 +72,7 @@
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="3" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="3" />
           <entry key="project.open.time.3" value="18" />
@@ -466,7 +83,7 @@
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="83" />
+          <entry key="project.opened" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -474,55 +91,57 @@
           <entry key="0-SNAPSHOT" value="2" />
           <entry key="2019-07-23" value="3" />
           <entry key="class" value="20" />
+          <entry key="css" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="170" />
+          <entry key="java" value="173" />
           <entry key="jpg" value="8" />
-          <entry key="js" value="15" />
-          <entry key="jsp" value="81" />
+          <entry key="js" value="18" />
+          <entry key="jsp" value="82" />
           <entry key="md" value="1" />
           <entry key="pom" value="3" />
           <entry key="properties" value="23" />
           <entry key="tag" value="3" />
-          <entry key="xml" value="116" />
+          <entry key="xml" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="20" />
+          <entry key="CSS" value="1" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="Image" value="8" />
-          <entry key="JAVA" value="170" />
-          <entry key="JSP" value="84" />
-          <entry key="JavaScript" value="15" />
+          <entry key="JAVA" value="173" />
+          <entry key="JSP" value="85" />
+          <entry key="JavaScript" value="18" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="23" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="119" />
+          <entry key="XML" value="121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="5948" />
-          <entry key="js" value="86" />
-          <entry key="jsp" value="2072" />
+          <entry key="java" value="6371" />
+          <entry key="js" value="117" />
+          <entry key="jsp" value="2250" />
           <entry key="md" value="17" />
           <entry key="properties" value="29" />
           <entry key="txt" value="15" />
-          <entry key="xml" value="1485" />
+          <entry key="xml" value="1515" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5948" />
-          <entry key="JSP" value="2072" />
-          <entry key="JavaScript" value="86" />
+          <entry key="JAVA" value="6371" />
+          <entry key="JSP" value="2250" />
+          <entry key="JavaScript" value="117" />
           <entry key="Markdown" value="17" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="Properties" value="29" />
           <entry key="SQL" value="21" />
-          <entry key="XML" value="1464" />
+          <entry key="XML" value="1494" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -534,11 +153,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/footer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-548">
-              <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+            <state relative-caret-position="836">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -546,26 +165,79 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+            <state relative-caret-position="431">
+              <caret line="95" column="53" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/demo/style/demo.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3850">
+              <caret line="175" column="22" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbUserMapper.xml">
+        <entry file="file://$PROJECT_DIR$/my-shop-commons/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/funtl/my/shop/domain/TbUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="132" column="20" lean-forward="true" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="25" />
+            <state relative-caret-position="286">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/dao/TbUserDao.java">
+        <entry file="file://$PROJECT_DIR$/my-shop-commons/src/main/java/com/funtl/my/shop/commons/persistence/BaseEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="20" />
+            <state relative-caret-position="198">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/funtl/my/shop/domain/PageInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1190#1191#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -573,8 +245,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/service/TbUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="660">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -582,14 +254,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/service/impl/TbUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
-              <folding>
-                <element signature="e#2484#2485#0" expanded="true" />
-                <element signature="e#2511#2512#0" expanded="true" />
-                <element signature="e#2579#2580#0" expanded="true" />
-                <element signature="e#2611#2612#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1584">
+              <caret line="89" column="43" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -612,9 +278,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/web.xml" />
-        <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/User.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/dao/User.java" />
         <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/com/funtl/my/shop/domain/User.java" />
         <option value="$PROJECT_DIR$/my-shop-commons/pom.xml" />
@@ -629,7 +292,6 @@
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/Spring-Context-druid.xml" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/spring-context-druid.xml" />
         <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/com/funtl/my/shop/domain/TBUser.java" />
-        <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/com/funtl/my/shop/domain/TbUser.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/dao/TbUser.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/myshop.properties" />
@@ -653,16 +315,20 @@
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/interceptor/PermissionInterceptor.java" />
         <option value="$PROJECT_DIR$/my-shop-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/app.js" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_form.jsp" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/header.jsp" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/footer.jsp" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbUserMapper.xml" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/dao/TbUserDao.java" />
+        <option value="$PROJECT_DIR$/my-shop-commons/src/main/java/com/funtl/my/shop/commons/persistence/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/my-shop-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/com/funtl/my/shop/domain/TbUser.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/service/TbUserService.java" />
+        <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/com/funtl/my/shop/domain/PageInfo.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/service/impl/TbUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/app.js" />
       </list>
     </option>
   </component>
@@ -763,13 +429,88 @@
             <path>
               <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="funtl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="funtl" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="funtl" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="funtl" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-shop" type="462c0819:PsiDirectoryNode" />
               <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
@@ -904,22 +645,6 @@
               <item name="shop" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="funtl" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -937,39 +662,6 @@
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="funtl" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
@@ -995,53 +687,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="tags" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="tags" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-api" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
@@ -1074,7 +721,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570606046051" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570624627044" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -1397,7 +1044,8 @@
       <workItem from="1570340505663" duration="12000" />
       <workItem from="1570380923368" duration="1273000" />
       <workItem from="1570459715265" duration="254000" />
-      <workItem from="1570598835195" duration="3922000" />
+      <workItem from="1570598835195" duration="9177000" />
+      <workItem from="1570723878480" duration="824000" />
     </task>
     <task id="LOCAL-00001" summary="模块化开发">
       <created>1563607750652</created>
@@ -1483,7 +1131,35 @@
       <option name="project" value="LOCAL" />
       <updated>1570605980501</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="CRUD">
+      <created>1570606009174</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570606009174</updated>
+    </task>
+    <task id="LOCAL-00014" summary="CRUD">
+      <created>1570606031999</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1570606031999</updated>
+    </task>
+    <task id="LOCAL-00015" summary="CRUD">
+      <created>1570606066862</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1570606066862</updated>
+    </task>
+    <task id="LOCAL-00016" summary="CRUD">
+      <created>1570606220841</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1570606220841</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1519,7 +1195,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150008000" />
+    <option name="totallyTimeSpent" value="156087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1532,9 +1208,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.31164902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.3600605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1628,41 +1303,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="CRUD" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="42" column="23" selection-start-line="30" selection-start-column="4" selection-end-line="42" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/resources/spring-druid.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1834,13 +1474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="297" column="10" selection-start-line="295" selection-start-column="8" selection-end-line="297" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1879,24 +1512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/funtl/my/shop/domain/TbUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/tags/sys/modal.tag">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="73" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1917,43 +1536,110 @@
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/dao/TbUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="20" />
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/service/TbUserService.java">
+    <entry file="file://$PROJECT_DIR$/my-shop-domain/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/service/impl/TbUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
-          <folding>
-            <element signature="e#2484#2485#0" expanded="true" />
-            <element signature="e#2511#2512#0" expanded="true" />
-            <element signature="e#2579#2580#0" expanded="true" />
-            <element signature="e#2611#2612#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+        <state relative-caret-position="484">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-548">
-          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+        <state relative-caret-position="2618">
+          <caret line="119" column="46" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3850">
+          <caret line="175" column="22" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/funtl/my/shop/domain/TbUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-commons/src/main/java/com/funtl/my/shop/commons/persistence/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/funtl/my/shop/domain/PageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/service/TbUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/service/impl/TbUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="89" column="43" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="95" column="53" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/demo/style/demo.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
