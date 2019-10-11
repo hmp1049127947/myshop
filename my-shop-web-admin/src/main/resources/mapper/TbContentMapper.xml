@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.funtl.my.shop.web.admin.dao.TbContentDao">
+
+    <sql id="tbContentColumns">
+        a.id,
+        a.category_id,
+        a.title,
+        a.sub_title,
+        a.title_desc,
+        a.url,
+        a.pic,
+        a.pic2,
+        a.content,
+        a.created,
+        a.updated
+    </sql>
+    <select id="selectAll" resultType="com.funtl.my.shop.domain.TbContent">
+        SELECT
+        <include refid="tbContentColumns"/>
+        FROM
+        tb_content AS a
+    </select>
+    <insert id="insertTbContent">
+        INSERT INTO `myshop`.`tb_content` (
+              `category_id`,
+              `title`,
+              `sub_title`,
+              `title_desc`,
+              `url`,
+              `pic`,
+              `pic2`,
+              `content`,
+              `created`,
+              `updated`
+                          )
+            VALUES
+                (
+                #{categoryId},
+                #{title},
+                #{subTitle},
+                #{titleDesc},
+                #{url},
+                #{pic},
+                #{pic2},
+                #{content},
+                #{created},
+                #{updated}
+                )
+    </insert>
+
+
+    <update id="updateTbContent">
+        UPDATE
+          myshop.tb_content
+        SET
+          category_id = #{categoryId},
+          title = #{title},
+          sub_title = #{subTitle},
+          url = #{url},
+          pic = #{pic},
+          pic2 = #{pic2},
+          content = #{content},
+          updated = #{updated}
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteById">
+        DELETE
+        FROM tb_content
+        WHERE id=#{id}
+    </delete>
+
+    <select id="getById" resultType="com.funtl.my.shop.domain.TbContent">
+        SELECT
+        <include refid="tbContentColumns"/>
+        FROM
+        tb_content AS a
+        WHERE a.id=#{id}
+    </select>
+
+
+    <select id="search" resultType="com.funtl.my.shop.domain.TbContent">
+        SELECT
+        <include refid="tbContentColumns"/>
+        FROM
+        tb_content AS a
+        <where>
+            <if test="title != null and title != ''">
+                OR title LIKE concat('%',#{title},'%')
+            </if>
+            <if test="subTitle != null and subTitle != ''">
+                OR sub_title LIKE concat('%',#{subTitle},'%')
+            </if>
+            <if test="titleDesc != null and titleDesc != ''">
+                OR title_desc LIKE concat('%',#{titleDesc},'%')
+            </if>
+        </where>
+    </select>
+
+    <delete id="deleteMulti">
+        DELETE FROM tb_content
+        WHERE id IN
+        <foreach collection="array" open="(" close=")" separator="," item="id">
+            #{id}
+        </foreach>
+    </delete>
+
+    <select id="page" resultType="com.funtl.my.shop.domain.TbContent">
+        SELECT
+        <include refid="tbContentColumns"/>
+        FROM
+        tb_content AS a
+        LIMIT #{start},#{length}
+    </select>
+
+    <select id="contentTotal" resultType="Integer">
+        SELECT COUNT(*) FROM tb_content
+    </select>
+
+
+</mapper>

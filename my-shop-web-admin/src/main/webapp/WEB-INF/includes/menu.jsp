@@ -47,7 +47,7 @@
                 </a>
                 <ul class="treeview-menu">
                     <li ><a href="/content/category/list"><i class="fa fa-circle-o"></i>内容管理</a></li>
-                    <li ><a href="#"><i class="fa fa-circle-o"></i>内容列表</a></li>
+                    <li ><a href="/tbContent/list"><i class="fa fa-circle-o"></i>内容列表</a></li>
 
                 </ul>
             </li>

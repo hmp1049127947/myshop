@@ -37,6 +37,7 @@
 <%--app--%>
 <script src="/static/assets/app/validate.js"></script>
 <script src="/static/assets/app/app.js"></script>
+<script src="/static/assets/app/datetime.js"></script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,3 +48,5 @@
 <!-- DataTables -->
 <script src="/static/assets/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="/static/assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+
+

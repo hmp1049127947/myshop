@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>用户管理</title>
+    <title>内容管理</title>
     <jsp:include page="../includes/header.jsp"/>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
@@ -20,12 +20,12 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                用户管理
+                内容管理
                 <small></small>
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> 用户管理</a></li>
-                <li class="active">用户列表</li>
+                <li><a href="#"><i class="fa fa-dashboard"></i> 内容管理</a></li>
+                <li class="active">内容列表</li>
             </ol>
         </section>
 
@@ -42,25 +42,25 @@
                     </c:if>
                     <div class="box">
                         <div class="box-header">
-                            <h3 class="box-title">用户列表</h3>
+                            <h3 class="box-title">内容列表</h3>
 
                             <div class="row" style="padding-left: 15px;padding-top: 10px;padding-bottom: 5px">
-                                <a href="/user/form" type="button" class="btn btn-sm btn-default"><i class="fa fa-plus"></i> 新增</a>&nbsp;&nbsp;&nbsp;
+                                <a href="/tbContent/form" type="button" class="btn btn-sm btn-default"><i class="fa fa-plus"></i> 新增</a>&nbsp;&nbsp;&nbsp;
                                 <button type="button" class="btn btn-sm btn-default" onclick="App.deleteMulti('/user/delete')"><i class="fa fa-trash-o"></i> 删除</button>&nbsp;&nbsp;&nbsp;
                                 <a href="#" type="button" class="btn btn-sm btn-default"><i class="fa fa-download"></i> 导入</a>&nbsp;&nbsp;&nbsp;
                                 <a href="#" type="button" class="btn btn-sm btn-default"><i class="fa fa-upload"></i> 导出</a>&nbsp;&nbsp;&nbsp;
                             </div>
 
                             <div class="box-tools">
-                               <form:form action="/user/search" method="post" modelAttribute="tbUsers">
-                                   <div class="input-group input-group-sm" style="width: 150px;">
-                                       <input type="text" name="keyword" class="form-control pull-right" placeholder="搜索">
-                                       <div class="input-group-btn">
-                                           <button type="submit" class="btn btn-default"><i class="fa fa-search"></i>
-                                           </button>
-                                       </div>
-                                   </div>
-                               </form:form>
+                                <form:form action="/tbContent/search" method="post" modelAttribute="tbContents">
+                                    <div class="input-group input-group-sm" style="width: 150px;">
+                                        <input type="text" name="keyword" class="form-control pull-right" placeholder="搜索">
+                                        <div class="input-group-btn">
+                                            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form:form>
                             </div>
 
                         </div>
@@ -68,15 +68,14 @@
                         <div class="box-body table-responsive no-padding">
                             <table id="dataTable" class="table table-hover">
                                 <thead>
-                                    <tr>
-                                        <th><input type="checkbox" class="minimal icheck_master" /></th>
-                                        <th>ID</th>
-                                        <th>用户名</th>
-                                        <th>手机号</th>
-                                        <th>邮箱</th>
-                                        <th>更新时间</th>
-                                        <th>数据操作</th>
-                                    </tr>
+                                <tr>
+                                    <th><input type="checkbox" class="minimal icheck_master" /></th>
+                                    <th>ID</th>
+                                    <th>标题</th>
+                                    <th>url</th>
+                                    <th>图片1</th>
+                                    <th>更新时间</th>
+                                </tr>
                                 </thead>
                                 <tbody>
 
@@ -105,23 +104,20 @@
             }
         },
         {"data": "id"},
-        {"data": "username"},
-        {"data": "phone"},
-        {"data": "email"},
+        {"data": "title"},
+        {
+            "data": function (row, type, val, meta) {
+                return '<a href="'+row.url+'" target="_blank">查看</a>'
+            }
+        },
+        {"data": "pic"},
         {
             "data": function (row, type, val, meta) {
                 return DateTime.format(row.updated,"yyyy-MM-dd HH:mm:ss");
             }
-        },
-        {
-            "data": function (row, type, val, meta) {
-                return '<a href="#" type="button" class="btn btn-sm btn-default"><i class="fa fa-search"></i> 查看</a>&nbsp;&nbsp;&nbsp;' +
-                    '<a href="#" type="button" class="btn btn-sm btn-primary"><i class="fa fa-edit"></i> 编辑</a>&nbsp;&nbsp;&nbsp;' +
-                    '<a href="#" type="button" class="btn btn-sm btn-danger"><i class="fa fa-trash-o"></i> 删除</a>'
-            }
         }
     ];
-    App.initDataTables("/user/page", colunms);
+    App.initDataTables("/tbContent/page", colunms);
 </script>
 </body>
 
